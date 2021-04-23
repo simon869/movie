@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화소개</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+
+    .bg-header{
+      background-color: red !important;
+      text-shadow: none !important;
+      color: white  !important;
+    }
+    .bg-footer{
+      background-color: beige !important;
+
+    }
+    #content{padding: 10px;}
+    .ui-block-a{
+        padding-bottom: 10px;
+    }
+    .ui-block-a img,.ui-block-b img{
+        float: left;
+        margin-right: 10px;
+    }
+    .ui-block-a div,.ui-block-b div{
+        color: blue;
+        font-weight: bold;
+    }
+    .ui-block-a span,.ui-block-b span{
+        color: red;
+    }
+    .img01{
+      width: auto;  height: auto;
+        max-width:  60px;
+        max-height: 60px;
+    }
+    .img02{
+      width: auto;  height: auto;
+        max-width:  60px;
+        max-height: 60px;
+    }
+    .img03{
+      width: auto;  height: auto;
+        max-width:  60px;
+        max-height: 60px;
+    }
+    .img04{
+      width: auto;  height: auto;
+        max-width:  60px;
+        max-height: 60px;
+    }
+    .img05{
+      width: auto;  height: auto;
+        max-width:  60px;
+        max-height: 60px;
+    }
+    .img06{
+      width: auto;  height: auto;
+        max-width:  60px;
+        max-height: 60px;
+    }
+    .img07{
+      width: auto;  height: auto;
+        max-width:  60px;
+        max-height: 60px;
+    }
+    .ui-block-a,.ui-block-b{
+      font-size: small;
+    }
+</style>
+
+
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <!--header-------------------------------------------------------------->
+        <div data-role="header" class="bg-header">
+            <h3>영화소개</h3>
+            <a href="index.html" rel="external"data-icon="home" data-iconpos="notext">Home</a>
+            <a href="index.html" rel="external"data-icon="back" data-iconpos="notext">Prev</a>
+        </div>
+        <!--header-->
+        <!--navbar----------------------------------------------->
+        <div data-role="navbar">
+            <ul>
+                <li><a href="introduce01.html"rel="external">영화줄거리</a></li>
+                <li><a href="introduce02.html"class="ui-btn-active"rel="external">영화등장인물</a></li>
+                <li><a href="introduce03.html"rel="external">영화평점</a></li>
+            </ul>
+        </div>
+        <!-- /navbar -->
+        <!--content-------------------------------------------->
+        <div data-role="ui-content" id="content">
+          <h3>영화등장인물</h3>
+          <div class="ui-grid-a">
+              <div class="ui-block-a">
+                <img  class="img01" src="img/act01.jpg" alt="알렉산더 스카스가드">
+                <div>알렉산더 스카스가드</div>
+                Alexander Skarsgard<br>
+                <span>주연</span> | 네이선 린드 역<br>
+                <p> 
+                패싱,2021<br>
+                고질라 VS. 콩,2021<br>
+                </p> 
+              </div>
+              <div class="ui-block-b">
+                <img class="img02" src="img/act02.jpg" alt="밀리 바비 브라운">
+                <div>밀리 바비 브라운</div>
+                Millie Bobby Brown<br>
+                <span>주연</span> | 매디슨 러셀 역<br>
+                <p> 
+                고질라 VS. 콩,2021<br>
+                에놀라 홈즈,2020<br>
+                </p> 
+              </div>  
+          </div>
+          <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <img  class="img03" src="img/act03.jpg" alt="레베카 홀">
+              <div>레베카 홀</div>
+              Rebecca Hall<br>
+              <span>조연</span> | 아일린 앤드류스 역<br>
+              <p> 
+              패싱,2021<br>
+              고질라 VS. 콩,2021<br>
+              </p> 
+            </div>
+            <div class="ui-block-b">
+              <img class="img04" src="img/act04.jpg" alt="카일 챈들러">
+              <div>카일 챈들러</div>
+              Kyle Chandler<br>
+              <span>조연</span> | 마크 러셀 역<br>
+              <p> 
+              고질라 VS. 콩,2021<br>
+              미드나이트 스카이,2020<br>
+              </p> 
+            </div>
+            
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <img class="img05"  src="img/act05.jpg" alt="오구리 슌">
+              <div>오구리 슌</div>
+              Shun Oguri<br>
+              <span>조연</span> | 세리자와 렌 역<br>
+              <p> 
+                고질라 VS. 콩,2021<br>
+              신해석 삼국지,2020<br>
+              </p> 
+            </div>
+            <div class="ui-block-b">
+              <img class="img06"  src="img/act06.jpg" alt="에이사 곤살레스">
+              <div>에이사 곤살레스</div>
+              Eiza Gonzalez<br>
+              <span>조연</span> | 마야 시먼스 역<br>
+              <p> 
+              고질라 VS. 콩,2021<br>
+              러브 스프레드,2020<br>
+              </p> 
+            </div>
+            
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+              <img class="img07"  src="img/act07.jpg" alt="브라이언 타이리 헨리">
+              <div>브라이언 타이리 헨리</div>
+              Brian Tyree Henry<br>
+              <span>조연</span> | 버니 헤이즈 역<br>
+
+              <p> 
+                고질라 VS. 콩,2021<br>
+                우먼 인 윈도,2020<br>
+              </p> 
+            </div>
+        </div>
+        <!--content-->
+        <!--footer---------------------------------------------------------------------->
+        <div data-role="footer" class="bg-footer">
+        <h3>&copy;CGV. All rights reserved.</h3>
+
+        </div>
+        <!--footer-->
+    </div>
+    
+</body>
+</html>
